@@ -26,6 +26,24 @@
    .navItem {
       text-align: center;
    }
+
+   .navLink {
+      text-decoration: none;
+      color: #F02D3A
+   }
+
+   .navLink:hover {
+      text-decoration: none;
+      color: #f6f8ff;
+   }
+
+   #gradient {
+      border-radius: 24% 76% 21% 79% / 55% 30% 70% 45% ;
+   }
 }
 
-@media
+/* #fb8b24
+#202124
+#f02d3a
+#23ce6b
+#f6f8ff */
