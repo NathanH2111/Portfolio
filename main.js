@@ -1,0 +1,1 @@
+document.getElementById('gradientShape').innerHTML = ' ';

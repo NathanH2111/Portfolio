@@ -4,11 +4,13 @@
    overflow-x: hidden;
 }
 
+body {
+   font-family: sans-serif;
+   background-color: #120E13;
+   color:#f6f8ff;
+}
+
 @media only screen and (max-width: 767px) {
-   body {
-      font-family: sans-serif;
-      background-color: #120E13;
-   }
    
    #logo {
       color: #F02D3A;
@@ -21,6 +23,7 @@
       color: #F02D3A;
       display: flex;
       justify-content: space-evenly;
+      margin-bottom: 10vh;
    }
    
    .navItem {
@@ -34,16 +37,86 @@
 
    .navLink:hover {
       text-decoration: none;
-      color: #f6f8ff;
    }
 
-   #gradient {
-      border-radius: 24% 76% 21% 79% / 55% 30% 70% 45% ;
+   hero {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10vh;
    }
+
+   #gradientShape {
+      width: 50vw;
+      height: 25vh;
+      border: 1px transparent;
+      border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
+      background: rgb(240,45,58);
+      background: linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
+      box-shadow: 10px 10px 10px 10px linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
+   }
+
+   #headerTitle {
+      position: absolute;
+      align-self: center;
+   }
+
+   #about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10vh;
+   }
+
+   .titleLines {
+      color:#f6f8ff;
+      width: 50vw;
+      margin: 2vh;
+   }
+
+   #aboutContent {
+      width: 75vw;
+      text-align: center;
+   }
+
+   #experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10vh;
+   }
+
+   #experienceDesc {
+      margin-top: 1vh;
+      margin-bottom: 3vh;
+   }
+
+   #projects {
+      width: 100%;
+   }
+
+   .projectTableRows {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+   }
+
+   .projectTableItem {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 75vw;
+      align-items: center;
+   }
+
+   .projectLines {
+      margin: 1vh;
+      width: 25vw;
+   }
+
 }
 
 /* #fb8b24
 #202124
 #f02d3a
-#23ce6b
 #f6f8ff */
