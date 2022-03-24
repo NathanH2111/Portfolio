@@ -132,22 +132,122 @@ body {
    #contactDesc {
       width: 75vw;
       text-align: center;
+      margin-bottom: 5vh;
    }
 
    #contactLinkedIn, #contactLinkedIn:visited {
       color: #F02D3A;
    }
 
-   #contaactLinkedIn:hover {
+   #contactLinkedIn:hover {
       color:#f6f8ff;
    }
+   
+   /* Contact Email Button */
 
-   #contactEmail {
-      color:#F02D3A;
+   #emailLink {
+      text-decoration: none;
    }
 
+   .emailButton {
+      align-items: center;
+      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      border: 0;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 1em;
+      max-width: 100%;
+      min-width: 140px;
+      padding: 3px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+   }
+   
+   .emailButton:active,
+   .emailButton:hover {
+     outline: 0;
+   }
+   
+   .emailButton span {
+     background-color: #120E13;
+     padding: 16px 24px;
+     border-radius: 6px;
+     width: 100%;
+     height: 100%;
+     transition: 300ms;
+   }
+   
+   .emailButton:hover span {
+     background: none;
+   }
+   
+}
 
-/* #fb8b24
+@media screen and (min-width: 767px) {
+  .emailButton {
+    font-size: 24px;
+    min-width: 196px;
+}
+
+@media screen and (min-width:767px) {
+   #emailLink {
+      text-decoration: none;
+   }
+   
+   .emailButton {
+      align-items: center;
+      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      border: 0;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 1em;
+      max-width: 100%;
+      min-width: 140px;
+      padding: 3px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+   }
+   
+   .emailButton:active,
+   .emailButton:hover {
+     outline: 0;
+   }
+   
+   .emailButton span {
+     background-color: #120E13;
+     padding: 16px 24px;
+     border-radius: 6px;
+     width: 100%;
+     height: 100%;
+     transition: 300ms;
+   }
+   
+   .emailButton:hover span {
+     background: none;
+   }
+}
+
+/*
+#fb8b24
 #202124
 #f02d3a
-#f6f8ff */
+#f6f8ff 
+*/
