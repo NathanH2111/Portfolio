@@ -5,6 +5,8 @@
 }
 
 body {
+   padding-top: 2vh;
+   padding-bottom: 2vh;
    font-family: sans-serif;
    background-color: #120E13;
    color:#f6f8ff;
@@ -13,23 +15,38 @@ body {
 @media only screen and (max-width: 767px) {
 
    /* Main Page */
+
+   navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
    
    #logo {
       color: #F02D3A;
-      display: block;
       text-align: center;
-      margin: 2vh;
+      font-size: 40pt;
+      letter-spacing: -0.3em;
+      width: 100%;
+   }
+
+   #headerLine {
+      width: 75vw;
+      border: 1px solid #F02D3A;
+      margin-top: 1vh;
+      margin-bottom: 2vh;
    }
    
    #nav {
       color: #F02D3A;
-      display: flex;
-      justify-content: space-evenly;
+      display: inline;
       margin-bottom: 10vh;
    }
    
    .navItem {
+      float: left;
       text-align: center;
+      padding: 0vw 10vw;
    }
 
    .navLink {
@@ -189,7 +206,31 @@ body {
    .emailButton:hover span {
      background: none;
    }
-   
+
+   footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   #contactFooter {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+   }
+
+   #footerLine {
+      width: 75vw;
+      border: 1px solid#F02D3A;
+      margin-bottom: 2vh;
+   }
+
+   .footerLinks {
+      color:#F02D3A;
+      font-size: 24pt;
+      margin: 0 10vw;
+   }
+
 }
 
 @media screen and (min-width: 767px) {
