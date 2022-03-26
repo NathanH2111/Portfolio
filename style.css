@@ -185,7 +185,7 @@ body {
 
    .emailButton {
       align-items: center;
-      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
       border: 0;
       border-radius: 8px;
       box-sizing: border-box;
@@ -421,7 +421,7 @@ body {
    
    .emailButton {
       align-items: center;
-      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
       border: 0;
       border-radius: 8px;
       box-sizing: border-box;
@@ -538,8 +538,8 @@ body {
    }
 
    #gradientShape {
-      width: 300px;
-      height: 300px;
+      width: 500px;
+      height: 500px;
       border: 1px transparent;
       border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
       background: rgb(240,45,58);
@@ -554,7 +554,11 @@ body {
    }
 
    #headerTitle {
-      font-size: 50pt;
+      font-size: 80pt;
+   }
+
+   #headerSubtitle {
+      font-size: 20pt;
    }
 
    #about {
@@ -651,7 +655,7 @@ body {
    
    .emailButton {
       align-items: center;
-      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
       border: 0;
       border-radius: 8px;
       box-sizing: border-box;
