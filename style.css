@@ -185,7 +185,7 @@ body {
 
    .emailButton {
       align-items: center;
-      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
       border: 0;
       border-radius: 8px;
       box-sizing: border-box;
@@ -421,7 +421,7 @@ body {
    
    .emailButton {
       align-items: center;
-      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
       border: 0;
       border-radius: 8px;
       box-sizing: border-box;
@@ -655,7 +655,7 @@ body {
    
    .emailButton {
       align-items: center;
-      background-image: linear-gradient(144deg,#fb8b24 ,#f02d3a);
+      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
       border: 0;
       border-radius: 8px;
       box-sizing: border-box;
