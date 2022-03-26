@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Contact page</title>
-	</head>
-	<body>
-		<navbar>
-			<h1 id="logo">NH</h1>
-			<hr id="headerLine">
-			<ul id="nav">
-				<li class="navItem"><a class="navLink" href="index.html">Home</a></li>
-				<li class="navItem"><a class="navLink" href="contact.html">Contact</a></li>
-			</ul>
-		</navbar>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact page</title>
+  </head>
+  <body>
+    <navbar>
+      <h1 id="logo">NH</h1>
+      <hr id="headerLine" />
+      <ul id="nav">
+        <li class="navItem"><a class="navLink" href="index.html">Home</a></li>
+        <li class="navItem">
+          <a class="navLink" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </navbar>
 
-		<section id="contact">
-			<h1 id="contactHeader">Contact Me!</h1>
-			<hr class="contactLines" />
-			<p id="contactDesc">
-				Thank you for taking the time to look over my portfolio. If you would
-				like to contact me, you can reach me through
-				<a
-					id="contactLinkedIn"
-					href="https://www.linkedin.com/in/nathan-hedemark-643b9221b"
-					>LinkedIn</a>
-				or send me an email below.
-			</p>
-			<a id="emailLink" href='mailto:nathan@inhouseprinting.net' ><button class="emailButton" role="button"><span class="text">Email Me!</span></button></a>
-		</section>
-		<footer id='contactFooter'>
-			<hr id="footerLine">
-			<section id="icons">
-				<a class="footerLinks" href="https://www.linkedin.com/in/nathan-hedemark-643b9221b"><ion-icon id="linkedIn" name="logo-linkedin"></ion-icon></a>
-				<a class="footerLinks" href="mailto:nathan@inhouseprinting.net"><ion-icon id="email" name="mail-outline"></ion-icon></a>
-			</section>
-		</footer>
-		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-	</body>
+    <section id="contact">
+      <h1 id="contactHeader">Contact Me!</h1>
+      <hr class="contactLines" />
+      <p id="contactDesc">
+        Thank you for taking the time to look over my portfolio. If you would
+        like to contact me, you can reach me through
+        <a
+          id="contactLinkedIn"
+          target="_blank"
+          href="https://www.linkedin.com/in/nathan-hedemark-643b9221b"
+          >LinkedIn</a
+        >
+        or send me an email below.
+      </p>
+      <a id="emailLink" target="_blank" href="mailto:nathan@inhouseprinting.net"
+        ><button class="emailButton" role="button">
+          <span class="text">Email Me!</span>
+        </button></a
+      >
+    </section>
+    <footer id="contactFooter">
+      <hr id="footerLine" />
+      <section id="icons">
+        <a
+          class="footerLinks"
+          target="_blank"
+          href="https://www.linkedin.com/in/nathan-hedemark-643b9221b"
+          ><ion-icon id="linkedIn" name="logo-linkedin"></ion-icon
+        ></a>
+        <a
+          class="footerLinks"
+          target="_blank"
+          href="mailto:nathan@inhouseprinting.net"
+          ><ion-icon id="email" name="mail-outline"></ion-icon
+        ></a>
+      </section>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
