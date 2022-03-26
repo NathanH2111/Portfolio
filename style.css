@@ -538,8 +538,8 @@ body {
    }
 
    #gradientShape {
-      width: 300px;
-      height: 300px;
+      width: 500px;
+      height: 500px;
       border: 1px transparent;
       border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
       background: rgb(240,45,58);
@@ -554,7 +554,11 @@ body {
    }
 
    #headerTitle {
-      font-size: 50pt;
+      font-size: 80pt;
+   }
+
+   #headerSubtitle {
+      font-size: 20pt;
    }
 
    #about {
