@@ -96,6 +96,14 @@ body {
       font-size: 1em;
    }
 
+   #subtitleLink a:visited {
+      color:#f6f8ff;
+   }
+
+   #subtitleLink a {
+      color:#f6f8ff;
+   }
+
    #about {
       display: flex;
       flex-direction: column;
@@ -326,6 +334,14 @@ body {
 
    #headerTitle {
       font-size: 50pt;
+   }
+
+   #subtitleLink a:visited {
+      color:#f6f8ff;
+   }
+
+   #subtitleLink a {
+      color:#f6f8ff;
    }
 
    #about {
@@ -559,6 +575,14 @@ body {
 
    #headerSubtitle {
       font-size: 20pt;
+   }
+
+   #subtitleLink a:visited {
+      color:#f6f8ff;
+   }
+
+   #subtitleLink a {
+      color:#f6f8ff;
    }
 
    #about {
