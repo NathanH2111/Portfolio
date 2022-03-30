@@ -19,243 +19,206 @@ body {
    color:#f6f8ff;
 }
 
-@media screen and (max-width: 767px) {
+navbar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
-   /* Main Page */
+#logo {
+   color: #F02D3A;
+   text-align: center;
+   letter-spacing: -0.3em;
+   font-size: 40pt;
+   width: 100%;
+}
 
-   navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   
-   #logo {
-      color: #F02D3A;
-      text-align: center;
-      letter-spacing: -0.3em;
-      font-size: 40pt;
-      width: 100%;
-   }
+#headerLine {
+   width: 75vw;
+   border: 1px solid #F02D3A;
+   margin-top: 1vh;
+   margin-bottom: 2vh;
+}
 
-   #headerLine {
-      width: 75vw;
-      border: 1px solid #F02D3A;
-      margin-top: 1vh;
-      margin-bottom: 2vh;
-   }
-   
-   #nav {
-      color: #F02D3A;
-      display: inline;
-      margin-bottom: 10vh;
-   }
-   
-   .navItem {
-      float: left;
-      text-align: center;
-      padding: 0vw 10vw;
-   }
+#nav {
+   color: #F02D3A;
+   display: inline;
+}
 
-   .navLink {
-      text-decoration: none;
-      color: #F02D3A
-   }
+.navItem {
+   float: left;
+   text-align: center;
+   padding: 0vw 10vw;
+}
 
-   .navLink:hover {
-      text-decoration: none;
-   }
+.navLink {
+   text-decoration: none;
+   color: #F02D3A
+}
 
-   hero {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 10vh;
-   }
+hero {
+   display: flex;
+   justify-content: center;
+}
 
-   #gradientShape {
-      width: 210px;
-      height: 210px;
-      border: 1px transparent;
-      border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
-      background: rgb(240,45,58);
-      background: linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
-      box-shadow: 10px 10px 10px 10px linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
-   }
+#gradientShape {
+   border: 1px transparent;
+   border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
+   background: rgb(240,45,58);
+   background: linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
+   box-shadow: 10px 10px 10px 10px linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
+}
 
-   #heroText {
-      align-self: center;
-      position: absolute;
-      text-align: center;
-      width: 100%;
-   }
+#heroText {
+   align-self: center;
+   position: absolute;
+   text-align: center;
+}
 
-   #headerTitle {
-      font-size: 2.5em;
-   }
+#subtitleLink a:visited {
+   color:#f6f8ff;
+}
 
-   #headerSubtitle {
-      font-size: 1em;
-   }
+#subtitleLink a {
+   color:#f6f8ff;
+}
 
-   #subtitleLink a:visited {
-      color:#f6f8ff;
-   }
+#about {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 10vh;
+}
 
-   #subtitleLink a {
-      color:#f6f8ff;
-   }
+.titleLines {
+   color:#f6f8ff;
+   width: 50vw;
+   margin: 2vh;
+}
 
-   #about {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 10vh;
-   }
+#experience {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
-   .titleLines {
-      color:#f6f8ff;
-      width: 50vw;
-      margin: 2vh;
-   }
+#experienceDesc {
+   margin-top: 1vh;
+   margin-bottom: 5vh;
+}
 
-   #aboutContent {
-      width: 75vw;
-      text-align: center;
-   }
+#projects {
+   width: 100%;
+}
 
-   #experience {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 10vh;
-   }
+.projectTableRows {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+}
 
-   #experienceDesc {
-      margin-top: 1vh;
-      margin-bottom: 5vh;
-   }
+.projectTableItem {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+}
 
-   #projects {
-      width: 100%;
-   }
+.projectLines {
+   margin: 1vh;
+   width: 25vw;
+}
 
-   .projectTableRows {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: center;
-   }
+#contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
-   .projectTableItem {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      width: 75vw;
-      align-items: center;
-   }
+.contactLines {
+   width: 50vw;
+   margin: 2vh;
+}
 
-   .projectLines {
-      margin: 1vh;
-      width: 25vw;
-   }
+#contactDesc {
+   text-align: center;
+}
 
-   /* Contact Page */
+#contactLinkedIn, #contactLinkedIn:visited {
+   color: #F02D3A;
+}
 
-   #contact {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
+#contactLinkedIn:hover {
+   color:#f6f8ff;
+}
 
-   .contactLines {
-      width: 50vw;
-      margin: 2vh;
-   }
+#emailLink {
+   text-decoration: none;
+}
 
-   #contactDesc {
-      width: 75vw;
-      text-align: center;
-      margin-bottom: 5vh;
-   }
+.emailButton {
+   align-items: center;
+   background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
+   border: 0;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #f6f8ff;
+   display: flex;
+   font-family: sans-serif;
+   font-size: 20px;
+   justify-content: center;
+   line-height: 1em;
+   max-width: 100%;
+   min-width: 140px;
+   padding: 3px;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   cursor: pointer;
+}
 
-   #contactLinkedIn, #contactLinkedIn:visited {
-      color: #F02D3A;
-   }
+.emailButton:active,
+.emailButton:hover {
+  outline: 0;
+}
 
-   #contactLinkedIn:hover {
-      color:#f6f8ff;
-   }
-   
-   /* Contact Email Button */
+.emailButton span {
+   background-color: #120E13;
+   padding: 16px 24px;
+   border-radius: 6px;
+   width: 100%;
+   height: 100%;
+   transition: 300ms;
+}
 
-   #emailLink {
-      text-decoration: none;
-   }
+.emailButton:hover span {
+   background: none;
+}
 
-   .emailButton {
-      align-items: center;
-      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
-      border: 0;
-      border-radius: 8px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      display: flex;
-      font-family: sans-serif;
-      font-size: 20px;
-      justify-content: center;
-      line-height: 1em;
-      max-width: 100%;
-      min-width: 140px;
-      padding: 3px;
-      text-decoration: none;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      white-space: nowrap;
-      cursor: pointer;
-   }
-   
-   .emailButton:active,
-   .emailButton:hover {
-     outline: 0;
-   }
-   
-   .emailButton span {
-     background-color: #120E13;
-     padding: 16px 24px;
-     border-radius: 6px;
-     width: 100%;
-     height: 100%;
-     transition: 300ms;
-   }
-   
-   .emailButton:hover span {
-     background: none;
-   }
+footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
-   footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
+#contactFooter {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
 
-   #contactFooter {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-   }
+#footerLine {
+   width: 75vw;
+   border: 1px solid#F02D3A;
+   margin-bottom: 2vh;
+}
 
-   #footerLine {
-      width: 75vw;
-      border: 1px solid#F02D3A;
-      margin-bottom: 2vh;
-   }
-
-   .footerLinks {
-      color:#F02D3A;
-      font-size: 24pt;
-      margin: 0 10vw;
-   }
-
+.footerLinks {
+   color:#F02D3A;
+   font-size: 24pt;
 }
 
 @media screen and (min-width: 767px) {
@@ -265,45 +228,16 @@ body {
    }
 }
 
-@media screen and (min-width:767px) and (max-width: 1100px) {
+/* Mobile */
+@media screen and (max-width: 767px) {
 
-   navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   
+   /* Main Page */
    #logo {
-      color: #F02D3A;
-      text-align: center;
-      letter-spacing: -0.3em;
-      font-size: 60pt;
-      width: 100%;
-   }
-
-   #headerLine {
-      width: 75vw;
-      border: 1px solid #F02D3A;
-      margin-top: 1vh;
-      margin-bottom: 2vh;
+      font-size: 40pt;
    }
    
    #nav {
-      color: #F02D3A;
-      display: inline;
-      margin-bottom: 15vh;
-      font-size: 18pt;
-   }
-   
-   .navItem {
-      float: left;
-      text-align: center;
-      padding: 0vw 10vw;
-   }
-
-   .navLink {
-      text-decoration: none;
-      color: #F02D3A
+      margin-bottom: 10vh;
    }
 
    .navLink:hover {
@@ -311,50 +245,78 @@ body {
    }
 
    hero {
-      display: flex;
-      justify-content: center;
+      margin-bottom: 10vh;
+   }
+
+   #gradientShape {
+      width: 210px;
+      height: 210px;
+   }
+
+   #heroText {
+      width: 100%;
+   }
+
+   #headerTitle {
+      font-size: 30pt;
+   }
+
+   #headerSubtitle {
+      font-size: 12pt;
+   }
+
+   #aboutContent {
+      width: 75vw;
+      text-align: center;
+   }
+
+   #experience {
+      margin-bottom: 10vh;
+   }
+
+   .projectTableItem {
+      width: 75vw;
+   }
+
+   /* Contact Page */
+
+   #contactDesc {
+      width: 75vw;
+      margin-bottom: 5vh;
+   }
+
+   .footerLinks {
+      margin: 0 10vw;
+   }
+
+}
+
+@media screen and (min-width:767px) and (max-width: 1100px) {
+   
+   #logo {
+      font-size: 60pt;
+   }
+   
+   #nav {
+      margin-bottom: 15vh;
+      font-size: 18pt;
+   }
+
+   .navLink:hover {
+      text-decoration: none;
+   }
+
+   hero {
       margin-bottom: 15vh;
    }
 
    #gradientShape {
       width: 300px;
       height: 300px;
-      border: 1px transparent;
-      border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
-      background: rgb(240,45,58);
-      background: linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
-      box-shadow: 10px 10px 10px 10px linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
-   }
-
-   #heroText {
-      position: absolute;
-      align-self: center;
-      text-align: center;
    }
 
    #headerTitle {
       font-size: 50pt;
-   }
-
-   #subtitleLink a:visited {
-      color:#f6f8ff;
-   }
-
-   #subtitleLink a {
-      color:#f6f8ff;
-   }
-
-   #about {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 10vh;
-   }
-
-   .titleLines {
-      color:#f6f8ff;
-      width: 50vw;
-      margin: 2vh;
    }
 
    #aboutContent {
@@ -364,39 +326,11 @@ body {
    }
 
    #experience {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       margin-bottom: 15vh;
    }
 
-   #experienceDesc {
-      margin-top: 1vh;
-      margin-bottom: 5vh;
-   }
-
-   #projects {
-      width: 100%;
-   }
-
-   .projectTableRows {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: center;
-   }
-
    .projectTableItem {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
       width: 50vw;
-      align-items: center;
-   }
-
-   .projectLines {
-      margin: 1vh;
-      width: 25vw;
    }
 
    .tableItemContent {
@@ -405,141 +339,26 @@ body {
 
    /* Contact Page */
 
-   #contact {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   .contactLines {
-      width: 50vw;
-      margin: 2vh;
-   }
-
    #contactDesc {
       width: 50vw;
-      text-align: center;
       margin-bottom: 10vh;
       line-height: 175%;
    }
 
-   #contactLinkedIn, #contactLinkedIn:visited {
-      color: #F02D3A;
-   }
-
-   #contactLinkedIn:hover {
-      color:#f6f8ff;
-   }
-
-   #emailLink {
-      text-decoration: none;
-   }
-   
-   .emailButton {
-      align-items: center;
-      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
-      border: 0;
-      border-radius: 8px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      display: flex;
-      font-family: sans-serif;
-      font-size: 20px;
-      justify-content: center;
-      line-height: 1em;
-      max-width: 100%;
-      min-width: 140px;
-      padding: 3px;
-      text-decoration: none;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      white-space: nowrap;
-      cursor: pointer;
-   }
-   
-   .emailButton:active,
-   .emailButton:hover {
-     outline: 0;
-   }
-   
-   .emailButton span {
-     background-color: #120E13;
-     padding: 16px 24px;
-     border-radius: 6px;
-     width: 100%;
-     height: 100%;
-     transition: 300ms;
-   }
-   
-   .emailButton:hover span {
-     background: none;
-   }
-
-   footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   #contactFooter {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-   }
-
-   #footerLine {
-      width: 75vw;
-      border: 1px solid#F02D3A;
-      margin-bottom: 2vh;
-   }
-
    .footerLinks {
-      color:#F02D3A;
-      font-size: 24pt;
       margin: 0 5vw;
    }
 }
 
 @media screen and (min-width:1101px) {
    
-   navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   
    #logo {
-      color: #F02D3A;
-      text-align: center;
-      letter-spacing: -0.3em;
       font-size: 60pt;
-      width: 100%;
-   }
-
-   #headerLine {
-      width: 75vw;
-      border: 1px solid #F02D3A;
-      margin-top: 1vh;
-      margin-bottom: 2vh;
    }
    
    #nav {
-      color: #F02D3A;
-      display: inline;
       margin-bottom: 20vh;
       font-size: 18pt;
-   }
-   
-   .navItem {
-      float: left;
-      text-align: center;
-      padding: 0vw 10vw;
-   }
-
-   .navLink {
-      text-decoration: none;
-      color: #F02D3A
    }
 
    .navLink:hover {
@@ -548,25 +367,12 @@ body {
    }
 
    hero {
-      display: flex;
-      justify-content: center;
       margin-bottom: 20vh;
    }
 
    #gradientShape {
       width: 500px;
       height: 500px;
-      border: 1px transparent;
-      border-radius: 31% 69% 62% 38% / 44% 31% 69% 56% ;
-      background: rgb(240,45,58);
-      background: linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
-      box-shadow: 10px 10px 10px 10px linear-gradient(135deg, rgba(240,45,58,1) 1%, rgba(251,139,36,1) 100%);
-   }
-
-   #heroText {
-      position: absolute;
-      align-self: center;
-      text-align: center;
    }
 
    #headerTitle {
@@ -577,25 +383,8 @@ body {
       font-size: 20pt;
    }
 
-   #subtitleLink a:visited {
-      color:#f6f8ff;
-   }
-
-   #subtitleLink a {
-      color:#f6f8ff;
-   }
-
    #about {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       margin-bottom:20vh;
-   }
-
-   .titleLines {
-      color:#f6f8ff;
-      width: 50vw;
-      margin: 2vh;
    }
 
    #aboutContent {
@@ -605,39 +394,11 @@ body {
    }
 
    #experience {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       margin-bottom: 20vh;
    }
 
-   #experienceDesc {
-      margin-top: 1vh;
-      margin-bottom: 5vh;
-   }
-
-   #projects {
-      width: 100%;
-   }
-
-   .projectTableRows {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: center;
-   }
-
    .projectTableItem {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
       width: 50vw;
-      align-items: center;
-   }
-
-   .projectLines {
-      margin: 1vh;
-      width: 25vw;
    }
 
    .tableItemContent {
@@ -647,98 +408,13 @@ body {
 
    /* Contact Page */
 
-   #contact {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   .contactLines {
-      width: 50vw;
-      margin: 2vh;
-   }
-
    #contactDesc {
       width: 30vw;
-      text-align: center;
       margin-bottom: 10vh;
       line-height: 175%;
    }
 
-   #contactLinkedIn, #contactLinkedIn:visited {
-      color: #F02D3A;
-   }
-
-   #contactLinkedIn:hover {
-      color:#f6f8ff;
-   }
-
-   #emailLink {
-      text-decoration: none;
-   }
-   
-   .emailButton {
-      align-items: center;
-      background-image: linear-gradient(144deg,#f02d3a ,#fb8b24);
-      border: 0;
-      border-radius: 8px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      display: flex;
-      font-family: sans-serif;
-      font-size: 20px;
-      justify-content: center;
-      line-height: 1em;
-      max-width: 100%;
-      min-width: 140px;
-      padding: 3px;
-      text-decoration: none;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      white-space: nowrap;
-      cursor: pointer;
-   }
-   
-   .emailButton:active,
-   .emailButton:hover {
-     outline: 0;
-   }
-   
-   .emailButton span {
-     background-color: #120E13;
-     padding: 16px 24px;
-     border-radius: 6px;
-     width: 100%;
-     height: 100%;
-     transition: 300ms;
-   }
-   
-   .emailButton:hover span {
-     background: none;
-   }
-
-   footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   #contactFooter {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-   }
-
-   #footerLine {
-      width: 75vw;
-      border: 1px solid#F02D3A;
-      margin-bottom: 2vh;
-   }
-
    .footerLinks {
-      color:#F02D3A;
-      font-size: 24pt;
       margin: 0 5vw;
    }
 
