@@ -11,6 +11,37 @@
    overflow-x: hidden;
 }
 
+/* ======
+   Scrollbar
+   ====== */
+
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-track {
+   background: #1E1E1E;
+   border-radius: 100vw;
+   margin-block: 1vh;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #7B7B7B;
+   border-radius: 100vw;
+   border: 3px solid #1E1E1E;
+}
+
+@supports (scrollbar-color: #1E1E1E #7B7B7B) {
+   * {
+      scrollbar-color: #1E1E1E #7B7B7B;
+      scrollbar-width: thin;
+   }
+}
+
+/* ======
+   Global
+   ====== */
+
 body {
    padding-top: 2vh;
    padding-bottom: 2vh;
@@ -75,12 +106,13 @@ hero {
    text-align: center;
 }
 
+#subtitLink a, 
 #subtitleLink a:visited {
    color:#f6f8ff;
 }
 
-#subtitleLink a {
-   color:#f6f8ff;
+#subtitleLink a:hover {
+   color: #f02d3a;
 }
 
 #about {
@@ -221,6 +253,10 @@ footer {
    font-size: 24pt;
 }
 
+.icons:hover {
+   transform: scale(1.15)
+}
+
 @media screen and (min-width: 767px) {
    .emailButton {
       font-size: 24px;
@@ -228,7 +264,9 @@ footer {
    }
 }
 
-/* Mobile */
+/* ======
+   Mobile 
+   ======*/
 @media screen and (max-width: 767px) {
 
    /* Main Page */
@@ -291,6 +329,10 @@ footer {
 
 }
 
+/* ======
+   Tablet 
+   ====== */
+
 @media screen and (min-width:767px) and (max-width: 1100px) {
    
    #logo {
@@ -349,6 +391,10 @@ footer {
       margin: 0 5vw;
    }
 }
+
+/* ======
+   Desktop 
+   ====== */
 
 @media screen and (min-width:1101px) {
    
